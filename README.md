@@ -7,6 +7,7 @@ SmartIOT_MCS
 <p align="center">
   <img src="https://github.com/iCShopMgr/LinkIt7697_IOT_Smart_House/blob/master/MCS.JPG" width="700"/>
 </p>
+
 * 設定每個項目時都會設定各自的ID，將每個ID替換掉下列程式碼中的字串項
 MCSDisplayInteger Data1("Data1");
 MCSDisplayInteger Data2("Data2");
