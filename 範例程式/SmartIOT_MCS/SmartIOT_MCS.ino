@@ -77,8 +77,8 @@ void setup() {
 void loop() {
   fire_sensor = !digitalRead(fire);
   rain_sensor = digitalRead(rain);
-  temp_sensor = dht.readHumidity();
-  humid_sensor = dht.readTemperature();
+  temp_sensor = dht.readTemperature();
+  humid_sensor = dht.readHumidity();
   light_sensor = myLux.getLux();
   if (fire_sensor == 1 || rain_sensor == 1) {
     for (int i=0;i<3;i++) {
